@@ -9,15 +9,19 @@ Agent支持清华chatglm、openai两个远程API接口。
 2、quick start
  
  a、安装需要的库
+ 
     pip install -r requirements.txt 
 	
  b、配置参数
+ 
     在config.py中配置参数，主要是大模型访问接口、代理、大模型key、bing search api key。
  
  c、执行demo
+ 
     python main.py
  
 3、执行demo
+
     demo有两个，一个是根据天气、票务信息来规划出行，另一个是通过web搜索，回答用户问题（需要bing search api key）
  
  
